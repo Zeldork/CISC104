@@ -1,33 +1,36 @@
 ﻿using System;
 
-public class Rectangle
+public class Cube
 {
     private float height;
     private float width;
+    private float length;
 
-    public Rectangle()
+    public Cube()
     {
         // Default values for my instantiated rectangle.
         height = 0f;
         width = 0f;
+        length = 0f;
     }
 
-    public Rectangle(float newHeight, float newWidth)
+    public Cube(float newHeight, float newWidth, float newLength)
     {
         // Should consider testing for positive numbers before accepting the parameters
 
         height = newHeight;
         width = newWidth;
+        length = newLength;
     }
 
-    public float GetPerimeter()
+    public float GetVolume()
     {
-        return 2 * height + 2 * width;
+        return height * width * length;
     }
 
-    public float GetArea()
+    public float GetEdgeLength()
     {
-        return height * width;
+        return GetVolume() / height * width;
     }
 
     public float GetHeight()
@@ -48,6 +51,16 @@ public class Rectangle
     public void SetWidth(float newWidth)
     {
         width = newWidth;
+    }
+
+    public float GetLength()
+    {
+        return length;
+    }
+
+    public void SetLength(float newLength)
+    {
+        length = newLength;
     }
 }
 
