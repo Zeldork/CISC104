@@ -14,11 +14,11 @@ public class CubeTests
         Cube defaultCube = new Cube();
 
         // Assert
-        Assert.AreEqual(0, defaultCube.GetHeight());
-        Assert.AreEqual(0, defaultCube.GetWidth());
-        Assert.AreEqual(0, defaultCube.GetLength());
-        Assert.AreEqual(0, defaultCube.GetVolume());
-        Assert.AreEqual(0, defaultCube.GetEdgeLength());
+        Assert.AreEqual(1, defaultCube.GetHeight());
+        Assert.AreEqual(1, defaultCube.GetWidth());
+        Assert.AreEqual(1, defaultCube.GetLength());
+        Assert.AreEqual(1, defaultCube.GetVolume());
+        Assert.AreEqual(1, defaultCube.GetEdgeLength());
     }
 
     // Test a 2 x 4 x 2 Cube

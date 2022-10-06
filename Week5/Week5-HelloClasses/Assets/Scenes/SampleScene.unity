@@ -464,7 +464,7 @@ GameObject:
   - component: {fileID: 326560219}
   - component: {fileID: 326560218}
   m_Layer: 5
-  m_Name: LengthText
+  m_Name: lengthText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -510,7 +510,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Cube Length:'
+  m_text: 'Cube Length: 1'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -635,7 +635,7 @@ GameObject:
   - component: {fileID: 540510049}
   - component: {fileID: 540510050}
   m_Layer: 5
-  m_Name: LengthSlider
+  m_Name: lengthSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -815,7 +815,7 @@ GameObject:
   - component: {fileID: 637724407}
   - component: {fileID: 637724406}
   m_Layer: 5
-  m_Name: VolumeText
+  m_Name: volumeText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -861,7 +861,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Cube Volume: 4'
+  m_text: 'Cube Volume: 1'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1117,7 +1117,7 @@ GameObject:
   - component: {fileID: 725049024}
   - component: {fileID: 725049025}
   m_Layer: 5
-  m_Name: HeightSlider
+  m_Name: heightSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1371,7 +1371,7 @@ GameObject:
   - component: {fileID: 839076406}
   - component: {fileID: 839076405}
   m_Layer: 5
-  m_Name: WidthText
+  m_Name: widthText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1669,10 +1669,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   heightSlider: {fileID: 725049025}
   widthSlider: {fileID: 1565363181}
+  lengthSlider: {fileID: 0}
   heightTextObject: {fileID: 1769967046}
   widthTextObject: {fileID: 839076403}
-  perimeterTextObject: {fileID: 637724404}
-  areaTextObject: {fileID: 2048696947}
+  lengthTextObject: {fileID: 0}
+  volumeTextObject: {fileID: 0}
+  edgelengthTextObject: {fileID: 0}
 --- !u!1 &1038719470
 GameObject:
   m_ObjectHideFlags: 0
@@ -2033,7 +2035,7 @@ GameObject:
   - component: {fileID: 1565363180}
   - component: {fileID: 1565363181}
   m_Layer: 5
-  m_Name: WidthSlider
+  m_Name: widthSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2205,7 +2207,7 @@ GameObject:
   - component: {fileID: 1769967049}
   - component: {fileID: 1769967048}
   m_Layer: 5
-  m_Name: HeightText
+  m_Name: heightText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2340,7 +2342,7 @@ GameObject:
   - component: {fileID: 2048696950}
   - component: {fileID: 2048696949}
   m_Layer: 5
-  m_Name: EdgeLengthText
+  m_Name: edgelengthText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
