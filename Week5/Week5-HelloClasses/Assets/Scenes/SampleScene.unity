@@ -1669,12 +1669,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   heightSlider: {fileID: 725049025}
   widthSlider: {fileID: 1565363181}
-  lengthSlider: {fileID: 0}
+  lengthSlider: {fileID: 540510050}
   heightTextObject: {fileID: 1769967046}
   widthTextObject: {fileID: 839076403}
-  lengthTextObject: {fileID: 0}
-  volumeTextObject: {fileID: 0}
-  edgelengthTextObject: {fileID: 0}
+  lengthTextObject: {fileID: 326560216}
+  volumeTextObject: {fileID: 637724404}
+  edgelengthTextObject: {fileID: 2048696947}
 --- !u!1 &1038719470
 GameObject:
   m_ObjectHideFlags: 0
@@ -2388,7 +2388,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Cube Edge Length: 1'
+  m_text: 'Cube Edge Length: 12'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

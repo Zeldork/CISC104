@@ -30,7 +30,7 @@ public class Cube
 
     public float GetEdgeLength()
     {
-        return (height * width * length) / (height * width);
+        return 4 * (height + width + length);
     }
 
     public float GetHeight()
