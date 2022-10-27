@@ -6,13 +6,15 @@ using UnityEngine.TestTools;
 
 public class UnitTests
 {
-    // Test if Player2 can score
+    
     [Test]
-    public void UnitTestsSimplePasses()
+    public void test()
     {
-        // Use the Assert class to test conditions
-    }
 
-    // Test if Player1 can score
-   
+    }
+        
+    // all my methods are void methods so I have no way to unit test and I don't know how to change my project and have the same functionality without using void methods.
+    // I tried searching how to test void methods but could not find any that I could understand, so I don't know what to do without starting a whole new project
+
+        
 }
